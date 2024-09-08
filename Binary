@@ -1,0 +1,817 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+                    url('Background port 3.jpg');
+                    background-size: cover;
+                    color: white;
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.logo
+{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(6)
+{
+    background: #983d3d;
+    border-radius: 8px;
+    margin: 0 1rem;
+    
+}
+.menu a:hover
+{
+    background: #983d3d;
+    border-radius: 8px;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left
+{
+    flex-basis: 60%;
+}
+.right
+{
+    flex-basis: 30%;
+}
+.left h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:  #41983d;
+    font-size: 2em;
+}
+.left h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+#hire
+{
+    text-decoration: none;
+    background: #983d3d;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp
+{
+    text-decoration: none;
+    border: 1px dashed white;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+}
+#bio
+{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.leftbio
+{
+    flex-basis: 40%;
+}
+.rightbio
+{
+    flex-basis: 60%;
+}
+.rightbio
+{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p
+{
+    margin: 12px 0;
+    line-height: 1.5rem;
+}
+.rightbio h1
+{
+    font-size: 3rem;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow
+{
+    text-align: center;
+}
+#follow i
+{
+    color: #983d3d;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link-a
+{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+#cv
+{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+    border: 1px dashed dashed gray;   
+}
+#services
+{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.02);
+    text-align: center;
+}
+.intro h1
+{
+    font-size: 3rem;
+}
+.card
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.cardbody
+{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
+.cardimg img
+{
+     width: 100%;
+}
+footer{
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+}*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+                    url('Background port 3.jpg');
+                    background-size: cover;
+                    color: white;
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.logo
+{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(6)
+{
+    background: #983d3d;
+    border-radius: 8px;
+    margin: 0 1rem;
+    
+}
+.menu a:hover
+{
+    background: #983d3d;
+    border-radius: 8px;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left
+{
+    flex-basis: 60%;
+}
+.right
+{
+    flex-basis: 30%;
+}
+.left h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:  #41983d;
+    font-size: 2em;
+}
+.left h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+#hire
+{
+    text-decoration: none;
+    background: #983d3d;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp
+{
+    text-decoration: none;
+    border: 1px dashed white;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+}
+#bio
+{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.leftbio
+{
+    flex-basis: 40%;
+}
+.rightbio
+{
+    flex-basis: 60%;
+}
+.rightbio
+{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p
+{
+    margin: 12px 0;
+    line-height: 1.5rem;
+}
+.rightbio h1
+{
+    font-size: 3rem;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow
+{
+    text-align: center;
+}
+#follow i
+{
+    color: #983d3d;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link-a
+{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+#cv
+{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+    border: 1px dashed dashed gray;   
+}
+#services
+{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.02);
+    text-align: center;
+}
+.intro h1
+{
+    font-size: 3rem;
+}
+.card
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.cardbody
+{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
+.cardimg img
+{
+     width: 100%;
+}
+footer{
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+}*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+                    url('Background port 3.jpg');
+                    background-size: cover;
+                    color: white;
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.logo
+{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(6)
+{
+    background: #983d3d;
+    border-radius: 8px;
+    margin: 0 1rem;
+    
+}
+.menu a:hover
+{
+    background: #983d3d;
+    border-radius: 8px;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left
+{
+    flex-basis: 60%;
+}
+.right
+{
+    flex-basis: 30%;
+}
+.left h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:  #41983d;
+    font-size: 2em;
+}
+.left h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+#hire
+{
+    text-decoration: none;
+    background: #983d3d;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp
+{
+    text-decoration: none;
+    border: 1px dashed white;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+}
+#bio
+{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.leftbio
+{
+    flex-basis: 40%;
+}
+.rightbio
+{
+    flex-basis: 60%;
+}
+.rightbio
+{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p
+{
+    margin: 12px 0;
+    line-height: 1.5rem;
+}
+.rightbio h1
+{
+    font-size: 3rem;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow
+{
+    text-align: center;
+}
+#follow i
+{
+    color: #983d3d;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link-a
+{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+#cv
+{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+    border: 1px dashed dashed gray;   
+}
+#services
+{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.02);
+    text-align: center;
+}
+.intro h1
+{
+    font-size: 3rem;
+}
+.card
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.cardbody
+{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
+.cardimg img
+{
+     width: 100%;
+}
+footer{
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+}*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),
+                    url('Background port 3.jpg');
+                    background-size: cover;
+                    color: white;
+}
+nav
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.logo
+{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(6)
+{
+    background: #983d3d;
+    border-radius: 8px;
+    margin: 0 1rem;
+    
+}
+.menu a:hover
+{
+    background: #983d3d;
+    border-radius: 8px;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+.left
+{
+    flex-basis: 60%;
+}
+.right
+{
+    flex-basis: 30%;
+}
+.left h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:  #41983d;
+    font-size: 2em;
+}
+.left h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+#hire
+{
+    text-decoration: none;
+    background: #983d3d;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+#myp
+{
+    text-decoration: none;
+    border: 1px dashed white;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+}
+#bio
+{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.leftbio
+{
+    flex-basis: 40%;
+}
+.rightbio
+{
+    flex-basis: 60%;
+}
+.rightbio
+{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio p
+{
+    margin: 12px 0;
+    line-height: 1.5rem;
+}
+.rightbio h1
+{
+    font-size: 3rem;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow
+{
+    text-align: center;
+}
+#follow i
+{
+    color: #983d3d;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link-a
+{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+#cv
+{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;  
+    border: 1px dashed dashed gray;   
+}
+#services
+{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.02);
+    text-align: center;
+}
+.intro h1
+{
+    font-size: 3rem;
+}
+.card
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.cardbody
+{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
+.cardimg img
+{
+     width: 100%;
+}
+footer{
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+}
